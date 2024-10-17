@@ -1,0 +1,45 @@
+.dropdown-menu {
+    background-color: #ffffff; /* Màu nền của dropdown menu */
+}
+
+.dropdown-item:hover {
+    background-color:#212529; /* Màu nền khi di chuột qua */
+    color:  #f8f9fa; /* Màu chữ khi di chuột qua */
+}
+.card-hover:hover {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2); /* Tạo đổ bóng */
+    transition: all 0.4s ease; /* Tạo hiệu ứng mượt */
+}
+
+.card-hover2 {
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+.card-hover2 a{
+    text-decoration: none; font-size: larger; color: black; font-weight: 500;
+}
+
+.card-hover2:hover {
+    border: 2px solid slategrey;
+    a {
+        color:tomato;
+    }
+}
+
+
+
+
+
+.content {
+    display: none; /* Ẩn tất cả nội dung ban đầu */
+}
+.content.show {
+    display: block; /* Hiển thị nội dung khi có lớp "show" */
+    animation: slide 0.5s ease-in-out;
+}
+@keyframes slide {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
